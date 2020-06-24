@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/giantswarm/{APP-NAME}-app.svg?style=shield)](https://circleci.com/gh/giantswarm/{APP-NAME}-app)
+[![CircleCI](https://circleci.com/gh/giantswarm/strimzi-kafka-operator-app.svg?style=shield)](https://circleci.com/gh/giantswarm/strimzi-kafka-operator-app)
 
 # strimzi-kafka-operator-app chart
 
