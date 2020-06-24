@@ -1,15 +1,16 @@
 version: 2.1
 orbs:
-  architect: giantswarm/architect@0.8.5
+  architect: giantswarm/architect@0.9.0
 
 workflows:
   package-and-push-chart-on-tag:
     jobs:
       - architect/push-to-app-catalog:
-          name: "package and push {CHART-NAME} chart"
+          context: "architect"
+          name: push-to-playground-app-catalog
           app_catalog: "giantswarm-playground-catalog"
           app_catalog_test: "giantswarm-playground-test-catalog"
-          chart: "{CHART-NAME}"
+          chart: "strimzi-kafka-operator-app"
           # Trigger job on git tag.
           filters:
             tags:
