@@ -1,0 +1,14 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: my-cluster-zookeeper
+  namespace: kafka
+rules:
+- apiGroups:
+  - policy
+  resourceNames:
+  - my-cluster-zookeeper
+  resources:
+  - podsecuritypolicies
+  verbs:
+  - use
