@@ -5,6 +5,7 @@
 ```bash
 gsctl create cluster -f testcluster.yaml
 ```
+
 1. Deploy strimzi-kafka-operator-app from the playground catalog (see `strimzi-kafka-operator-app.yaml`)
 
 1. Request a Kafka cluster
