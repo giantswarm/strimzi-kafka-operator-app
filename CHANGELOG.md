@@ -11,5 +11,6 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial helm chart based on upstream strimzi-kafka-operator v0.18.0
 - Cruise Control example
+- GitHub workflows
 
-[Unreleased]: https://github.com/giantswarm/strimzi-kafka-operator-app/compare/b2bada7...master
+[Unreleased]: https://github.com/giantswarm/strimzi-kafka-operator-app/tree/master
