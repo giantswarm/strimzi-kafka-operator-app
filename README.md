@@ -2,7 +2,7 @@
 
 # strimzi-kafka-operator-app chart
 
-Giant Swarm offers a strimzi-kafka-operator-app Managed App which can be installed in tenant clusters.
+Giant Swarm offers a strimzi-kafka-operator-app as a Playground App which can be installed, tested, and played with in tenant clusters.
 Here we define the strimzi-kafka-operator-app chart with its templates and default configuration.
 
 ## Credit
