@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [0.1.0] - 2020-08-14
+
 ### Changed
 
 - Upgraded to [strimzi-kafka-operator v0.19.0](https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.19.0).
@@ -19,5 +21,6 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 - Cruise Control example
 - GitHub workflows
 
-[Unreleased]: https://github.com/giantswarm/strimzi-kafka-operator-app/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/giantswarm/strimzi-kafka-operator-app/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/giantswarm/strimzi-kafka-operator-app/compare/v0.0.1...v0.1.0
 [0.0.1]: https://github.com/giantswarm/strimzi-kafka-operator-app/releases/tag/v0.0.1
