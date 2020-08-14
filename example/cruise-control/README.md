@@ -23,17 +23,17 @@
 1. Observe rebalance request status transition until ProposalReady
 
    ```bash
-   kubeclt describe kafkarebalances -n kafka my-rebalance
+   kubectl describe kafkarebalances -n kafka my-rebalance
    ```
 
 1. If request is stale, one can request refresh with
 
    ```bash
-   kubectl annotate kafkarebalance my-rebalance strimzi.io/rebalance=refresh -n kafka
+   kubectl annotate kafkarebalance -n kafka my-rebalance strimzi.io/rebalance=refresh
    ```
 
 1. Once happy with the rebalance proposal, one can approve it with
 
    ```bash
-   kubectl annotate kafkarebalance my-rebalance strimzi.io/rebalance=approve -n kafka
+   kubectl annotate kafkarebalance -n kafka my-rebalance strimzi.io/rebalance=approve
    ```

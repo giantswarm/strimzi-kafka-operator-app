@@ -4,23 +4,23 @@ metadata:
   labels:
     app-operator.giantswarm.io/version: 1.0.0
   name: strimzi-kafka-operator-app
-  namespace: vikq5
+  namespace: 25xe6
 spec:
-  catalog: giantswarm-playground-test
+  catalog: giantswarm-playground
   config:
     configMap:
-      name: vikq5-cluster-values
-      namespace: vikq5
+      name: 25xe6-cluster-values
+      namespace: 25xe6
     secret:
       name: ""
       namespace: ""
   kubeConfig:
     context:
-      name: vikq5
+      name: 25xe6
     inCluster: false
     secret:
-      name: vikq5-kubeconfig
-      namespace: vikq5
+      name: 25xe6-kubeconfig
+      namespace: 25xe6
   name: strimzi-kafka-operator-app
   namespace: kafka
   userConfig:
@@ -30,4 +30,4 @@ spec:
     secret:
       name: ""
       namespace: ""
-  version: 0.0.0-dac0c60e61242be99cbb6aefec2b0012fa6a719c
+  version: 0.1.0
