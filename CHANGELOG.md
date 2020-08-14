@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Upgraded to [strimzi-kafka-operator v0.19.0](https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.19.0).
+
 ## [0.0.1] - 2020-07-25
 
 ### Added

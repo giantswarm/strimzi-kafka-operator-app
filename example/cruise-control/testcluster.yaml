@@ -5,12 +5,12 @@
 #
 api_version: v5
 owner: giantswarm
-release_version: 11.4.0
+release_version: 11.5.1
 name: strimzi-kafka-operator-app testing
 master_nodes:
   high_availability: false
 labels:
-  creator: yolo
+  creator: changeme
 nodepools:
 - name: Spot c5.xlarge
   scaling:
