@@ -7,7 +7,7 @@ Here we define the strimzi-kafka-operator-app chart with its templates and defau
 
 ## Warning
 
-Deploying this application in a Giant Swarm cluster will not work if you dont pass along the RBAC and PodSecurityPolicies (PSP) needed to ensure kafka operator is able to create and manage the desired kafka cluster. Find an example [here](https://github.com/giantswarm/strimzi-kafka-operator-app/tree/master/example/cruise-control).
+Once strizmi-kafka-operator-app has been deployed, to get desired Apache Kafka and ZooKeeper cluster up and running, in Giant Swarm tenant clusters besides Strimzi's Kafka custom resource (CR) one has to pass along necessary RBAC and PodSecurityPolicy (PSP) resources. You can find an example of Kafka CR and accompanying resources [here](https://github.com/giantswarm/strimzi-kafka-operator-app/tree/master/example/cruise-control/my-cluster).
 
 ## Credit
 
