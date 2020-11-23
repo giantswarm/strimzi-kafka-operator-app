@@ -7,7 +7,13 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
 - Updated the icon
+
+### Added
+
+- Added a values.schema.json file to help with validating user values.
 
 ## [0.1.0] - 2020-08-14
 
