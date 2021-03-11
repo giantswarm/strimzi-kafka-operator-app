@@ -7,7 +7,11 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
-## [0.2.0] - 2020-08-14
+## [0.2.1] - 2021-03-14
+
+- Move to Giant Swarm Catalogue
+
+## [0.2.0] - 2021-03-04
 
 ### Changed
 
