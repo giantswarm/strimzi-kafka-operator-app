@@ -1,71 +1,55 @@
+---
 # Default values for strimzi-kafka-operator-app.
 
 strimzi-kafka-operator:
+  imageRepositoryOverride: giantswarm
   image:
-    repository: quay.io/giantswarm
     name: strimzi-operator
-
   zookeeper:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   kafka:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   kafkaConnect:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   kafkaConnects2i:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   topicOperator:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-operator
   userOperator:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-operator
   kafkaInit:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-operator
   tlsSidecarKafka:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   tlsSidecarEntityOperator:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   kafkaMirrorMaker:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   kafkaBridge:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka-bridge
   kafkaExporter:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   jmxTrans:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-jmxtrans
   kafkaMirrorMaker2:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   cruiseControl:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
   tlsSidecarCruiseControl:
     image:
-      repository: quay.io/giantswarm
       name: strimzi-kafka
