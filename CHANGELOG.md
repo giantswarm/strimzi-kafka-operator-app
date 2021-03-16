@@ -7,7 +7,15 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [0.2.2] - 2021-03-16
+
+### Fixed
+
+- Remove duplicated registry in image entry after templating.
+
 ## [0.2.1] - 2021-03-14
+
+### Changed
 
 - Move to Giant Swarm Catalogue
 
